@@ -1,0 +1,60 @@
+@import 'main.css';
+
+@media only screen and (max-width: 850px) {
+
+    /* Global Styles */
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    h2 {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    
+    p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    /* Page Overlay Styles */
+
+    .page-overlays {
+        width: 90%;
+        margin: auto;
+    }
+
+    .dark-mode-btn {
+        margin-left: 0;
+    }
+
+    .back-to-top-btn {
+        margin-right: 25px;
+    }
+
+    .dark-mode-btn:hover, .back-to-top-btn {
+        background-color: var(--red);
+    }
+
+    /* Section Styles */
+    /* Header Image Section Styles */
+
+    .header-img-section-wrapper .header-img {
+        background-size: cover;
+    }
+
+    /* Top/Header Section Styles */
+
+    .top-section-wrapper {
+        width: 90%;
+    }
+
+    /* Bottom/Content Section Styles */
+
+    .bottom-section-wrapper {
+        width: 90%;
+    }
+
+}
